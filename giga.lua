@@ -707,6 +707,9 @@ ExecutorsTab:CreateButton({
    end
 })
 
+local OPTab = Window:CreateTab("OP Scripts", 4483362458)
+OPTab:CreateButton({Name = "Purchase Faker - WORKS RARELY!", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bunnyiscooler/gigaclient-roblox/refs/heads/main/purchasefaker.lua"))})
+
 local AdminTab = Window:CreateTab("Admin&Exploits", 4483362458)
 AdminTab:CreateButton({Name = "Infinite Yield", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))() end})
 AdminTab:CreateButton({Name = "Nameless Admin", Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))() end})
@@ -718,5 +721,6 @@ ScriptsTab:CreateButton({Name = "Emotes TikTok", Callback = function() loadstrin
 ScriptsTab:CreateButton({Name = "All Emotes & Animations", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))() end})
 ScriptsTab:CreateButton({Name = "Fling GUI", Callback = function() loadstring(game:HttpGet("https://gist.githubusercontent.com/prostomaksim1826-alt/20d2ce820d716702ee16802c602a6951/raw/0df3f6d2f6f473f11d8619716336c3d7ff233d37/gistfile1.txt"))() end})
 ScriptsTab:CreateButton({Name = "Invisible GUI", Callback = function() loadstring(game:HttpGet("https://gist.githubusercontent.com/maks1165/b49e0fd87fc998e138433aaa1e854111/raw/760f4c82d8e3425f48512f14e8a52bfd359ac1d3/Invisible"))() end})
+ScriptsTab:CreateButton({Name = "EB Universal", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-EB-Bot-Menu-193775"))() end})
 
-Rayfield:Notify({Title = "GigaClient", Content = "Kill Aura & Combat protocols engaged.", Duration = 5})
+Rayfield:Notify({Title = "GigaClient", Content = "Gigas Only Use This", Duration = 5})
